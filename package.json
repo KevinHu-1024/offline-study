@@ -1,0 +1,27 @@
+{
+  "name": "offline-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava -v test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinHu-1024/offline-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinHu-1024/offline-study/issues"
+  },
+  "homepage": "https://github.com/KevinHu-1024/offline-study#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^6.6.1",
+    "travis-cli": "^1.0.1"
+  }
+}
